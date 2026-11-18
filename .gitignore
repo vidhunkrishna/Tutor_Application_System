@@ -86,3 +86,10 @@ build/
 uploads/
 temp/
 tmp/
+# Sensitive Spring Boot configuration
+/backend/src/main/resources/application.properties
+
+# Environment files
+.env
+.env.*
+!.env.example
