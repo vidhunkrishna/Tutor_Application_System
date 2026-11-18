@@ -1,0 +1,88 @@
+
+# ==============================
+# GENERAL
+# ==============================
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# ==============================
+# FRONTEND - REACT / VITE
+# ==============================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/coverage/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==============================
+# BACKEND - SPRING BOOT / MAVEN
+# ==============================
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Keep Maven source directories
+!backend/src/main/**/target/
+!backend/src/test/**/target/
+
+# ==============================
+# JAVA
+# ==============================
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ==============================
+# SPRING TOOL SUITE
+# ==============================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ==============================
+# INTELLIJ IDEA
+# ==============================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ==============================
+# NETBEANS
+# ==============================
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ==============================
+# VS CODE
+# ==============================
+.vscode/
+
+# ==============================
+# BUILD OUTPUTS
+# ==============================
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==============================
+# UPLOADS / TEMPORARY FILES
+# ==============================
+uploads/
+temp/
+tmp/
