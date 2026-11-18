@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@utility btn {
+  @apply bg-indigo-600 rounded-lg p-2 cursor-pointer hover:bg-indigo-800 duration-200 ease-in;
+}
+@utility login-btn {
+  @apply flex items-center px-6 py-2 border-2 rounded-lg gap-2 cursor-pointer hover:bg-white/10 transition-colors font-medium;
+}
+@utility card {
+  @apply bg-slate-500 py-8 px-8 flex flex-col rounded-2xl m-5 gap-3;
+}
+html {
+  scroll-behavior: smooth;
+}
+@utility login-frm {
+  @apply bg-white/10 rounded-2xl backdrop-blur-lg border border-white/20 shadow-xl w-96 flex flex-col items-center p-4 h-60;
+}
+@utility inp {
+  @apply bg-white/10 px-3 py-1 rounded-md w-60  focus:outline-cyan-800 focus:outline-1 placeholder:text-white mb-3 text-white;
+}
+@utility sub-btn {
+  @apply flex flex-row bg-slate-800 w-60 items-center justify-center text-white rounded-lg p-1  mt-2 hover:bg-slate-900 hover:scale-102 duration-200;
+}
+@utility side-card {
+  @apply text-white text-left hover:bg-white/10 p-4 ml-1 mr-2 rounded-xl cursor-pointer flex flex-row items-center gap-2;
+}
